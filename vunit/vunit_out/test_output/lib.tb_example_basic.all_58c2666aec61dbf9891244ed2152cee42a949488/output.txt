@@ -1,0 +1,7 @@
+# End time: 11:00:37 on Aug 18,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# vsim -modelsimini C:/Users/velic/OneDrive/Desktop/python/vunit/vunit_out/modelsim/modelsim.ini -wlf C:/Users/velic/OneDrive/Desktop/python/vunit/vunit_out/test_output/lib.tb_example_basic.all_58c2666aec61dbf9891244ed2152cee42a949488/modelsim/vsim.wlf -quiet -t ps -onfinish stop lib.tb_example_basic -L vunit_lib -L lib -g/tb_example_basic/runner_cfg="active python runner : true,enabled_test_cases : ,output path : C::/Users/velic/OneDrive/Desktop/python/vunit/vunit_out/test_output/lib.tb_example_basic.all_58c2666aec61dbf9891244ed2152cee42a949488/,tb path : C::/Users/velic/OneDrive/Desktop/python/vunit/,use_color : true" 
+# Start time: 11:00:37 on Aug 18,2023
+# Hello world
+# Break in Function vunit_pkg/test_runner::cleanup at C:/Users/velic/AppData/Local/Programs/Python/Python310/Lib/site-packages/vunit/verilog/vunit_pkg.sv line 138
+# Stopped at C:/Users/velic/AppData/Local/Programs/Python/Python310/Lib/site-packages/vunit/verilog/vunit_pkg.sv line 138

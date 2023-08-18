@@ -1,0 +1,9 @@
+# vsim -modelsimini C:/Users/velic/OneDrive/Desktop/python/vunit/vunit_out/modelsim/modelsim.ini -wlf C:/Users/velic/OneDrive/Desktop/python/vunit/vunit_out/test_output/lib.tb_example.Test_that_a_successful_test_case_passes2bdda5abfac164787ee41954d1c48bd036699331/modelsim/vsim.wlf -quiet -t ps -onfinish stop lib.tb_example -L vunit_lib -L lib -g/tb_example/runner_cfg="active python runner : true,enabled_test_cases : Test that a successful test case passes,output path : C::/Users/velic/OneDrive/Desktop/python/vunit/vunit_out/test_output/lib.tb_example.Test_that_a_successful_test_case_passes2bdda5abfac164787ee41954d1c48bd036699331/,tb path : C::/Users/velic/OneDrive/Desktop/python/vunit/,use_color : true" 
+# Start time: 11:00:32 on Aug 18,2023
+# Running test suite setup code
+# Running test case setup code
+# This test case is expected to pass
+# Cleaning up after a test case
+# Cleaning up after running the complete test suite
+# Break in Function vunit_pkg/test_runner::cleanup at C:/Users/velic/AppData/Local/Programs/Python/Python310/Lib/site-packages/vunit/verilog/vunit_pkg.sv line 138
+# Stopped at C:/Users/velic/AppData/Local/Programs/Python/Python310/Lib/site-packages/vunit/verilog/vunit_pkg.sv line 138

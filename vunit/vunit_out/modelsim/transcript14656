@@ -1,0 +1,79 @@
+# do {C:\Users\velic\AppData\Local\Programs\Python\Python310\Lib\site-packages\vunit\sim_if\tcl_read_eval_loop.tcl}
+# vsim -modelsimini C:/Users/velic/OneDrive/Desktop/python/vunit/vunit_out/modelsim/modelsim.ini -wlf C:/Users/velic/OneDrive/Desktop/python/vunit/vunit_out/test_output/lib.tb_example.Test_that_a_successful_test_case_passes2bdda5abfac164787ee41954d1c48bd036699331/modelsim/vsim.wlf -quiet -t ps -onfinish stop lib.tb_example -L vunit_lib -L lib -g/tb_example/runner_cfg="active python runner : true,enabled_test_cases : Test that a successful test case passes,output path : C::/Users/velic/OneDrive/Desktop/python/vunit/vunit_out/test_output/lib.tb_example.Test_that_a_successful_test_case_passes2bdda5abfac164787ee41954d1c48bd036699331/,tb path : C::/Users/velic/OneDrive/Desktop/python/vunit/,use_color : true" 
+# Start time: 11:00:32 on Aug 18,2023
+# Running test suite setup code
+# Running test case setup code
+# This test case is expected to pass
+# Cleaning up after a test case
+# Cleaning up after running the complete test suite
+# Break in Function vunit_pkg/test_runner::cleanup at C:/Users/velic/AppData/Local/Programs/Python/Python310/Lib/site-packages/vunit/verilog/vunit_pkg.sv line 138
+# Stopped at C:/Users/velic/AppData/Local/Programs/Python/Python310/Lib/site-packages/vunit/verilog/vunit_pkg.sv line 138
+# End time: 11:00:35 on Aug 18,2023, Elapsed time: 0:00:03
+# Errors: 0, Warnings: 0
+# vsim -modelsimini C:/Users/velic/OneDrive/Desktop/python/vunit/vunit_out/modelsim/modelsim.ini -wlf C:/Users/velic/OneDrive/Desktop/python/vunit/vunit_out/test_output/lib.tb_example.Test_that_a_failing_test_case_actually_e0b95858e14bbfb897b8d111a43505ca7f742d28/modelsim/vsim.wlf -quiet -t ps -onfinish stop lib.tb_example -L vunit_lib -L lib -g/tb_example/runner_cfg="active python runner : true,enabled_test_cases : Test that a failing test case actually fails,output path : C::/Users/velic/OneDrive/Desktop/python/vunit/vunit_out/test_output/lib.tb_example.Test_that_a_failing_test_case_actually_e0b95858e14bbfb897b8d111a43505ca7f742d28/,tb path : C::/Users/velic/OneDrive/Desktop/python/vunit/,use_color : true" 
+# Start time: 11:00:35 on Aug 18,2023
+# Running test suite setup code
+# Running test case setup code
+# This test case is expected to fail
+# ** Error: CHECK_EQUAL failed! Got 0=0 expected 1. You may also optionally add a diagnostic message to CHECK_EQUAL
+#    Time: 0 ps  Scope: tb_example File: C:/Users/velic/OneDrive/Desktop/python/vunit/tb_example.sv Line: 46
+# Break in Module tb_example at C:/Users/velic/OneDrive/Desktop/python/vunit/tb_example.sv line 46
+# Stopped at C:/Users/velic/OneDrive/Desktop/python/vunit/tb_example.sv line 46
+# 
+# Test Run Failed!
+# 
+# Stack trace result from 'tb' command
+#  C:/Users/velic/OneDrive/Desktop/python/vunit/tb_example.sv 46 return [address 0xff0b2e06] Module tb_example
+# 
+# 
+# Surrounding code from 'see' command
+#   41 :          `CHECK_EQUAL(1, 1);
+#   42 :       end
+#   43 : 
+#   44 :       `TEST_CASE("Test that a failing test case actually fails") begin
+#   45 :          $display("This test case is expected to fail");
+# ->46 :          `CHECK_EQUAL(0, 1, "You may also optionally add a diagnostic message to CHECK_EQUAL");
+#   47 :          // Note: A test case will also be marked as failing if the
+#   48 :          // simulator stops for other reasons before the end of the
+#   49 :          // TEST_SUITE block is reached. This means that you don't
+#   50 :          // need to use CHECK_EQUAL if the testbench you want to
+# 
+# End time: 11:00:36 on Aug 18,2023, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+# vsim -modelsimini C:/Users/velic/OneDrive/Desktop/python/vunit/vunit_out/modelsim/modelsim.ini -wlf C:/Users/velic/OneDrive/Desktop/python/vunit/vunit_out/test_output/lib.tb_example.Test_that_a_test_case_that_takes_too_lof763c9dbbd826025101721b40758dfe8d596eff6/modelsim/vsim.wlf -quiet -t ps -onfinish stop lib.tb_example -L vunit_lib -L lib -g/tb_example/runner_cfg="active python runner : true,enabled_test_cases : Test that a test case that takes too long time fails with a timeout,output path : C::/Users/velic/OneDrive/Desktop/python/vunit/vunit_out/test_output/lib.tb_example.Test_that_a_test_case_that_takes_too_lof763c9dbbd826025101721b40758dfe8d596eff6/,tb path : C::/Users/velic/OneDrive/Desktop/python/vunit/,use_color : true" 
+# Start time: 11:00:37 on Aug 18,2023
+# Running test suite setup code
+# Running test case setup code
+# This test is expected to timeout because of the watch dog below.
+# ** Error: Timeout waiting finish after 1.000 ns
+#    Time: 1 ns  Scope: vunit_pkg.test_runner.watchdog.wait_or_timeout File: C:/Users/velic/AppData/Local/Programs/Python/Python310/Lib/site-packages/vunit/verilog/vunit_pkg.sv Line: 221
+# Break in NamedForkStat vunit_pkg/test_runner::watchdog/wait_or_timeout at C:/Users/velic/AppData/Local/Programs/Python/Python310/Lib/site-packages/vunit/verilog/vunit_pkg.sv line 221
+# Stopped at C:/Users/velic/AppData/Local/Programs/Python/Python310/Lib/site-packages/vunit/verilog/vunit_pkg.sv line 221
+# 
+# Test Run Failed!
+# 
+# Stack trace result from 'tb' command
+#  C:/Users/velic/AppData/Local/Programs/Python/Python310/Lib/site-packages/vunit/verilog/vunit_pkg.sv 221 return [address 0xff0b5ed8] NamedForkStat vunit_pkg/test_runner::watchdog/wait_or_timeout
+# 
+# 
+# Surrounding code from 'see' command
+#   216 : 
+#   217 :    task automatic watchdog(real timeout_in_ns);
+#   218 :       fork : wait_or_timeout
+#   219 :          begin
+#   220 :             #(timeout_in_ns * 1ns);
+# ->221 :             $error("Timeout waiting finish after %.3f ns", timeout_in_ns);
+#   222 :             disable wait_or_timeout;
+#   223 :          end
+#   224 :          begin
+#   225 :             @(posedge exit_without_errors);
+# 
+# End time: 11:00:37 on Aug 18,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# vsim -modelsimini C:/Users/velic/OneDrive/Desktop/python/vunit/vunit_out/modelsim/modelsim.ini -wlf C:/Users/velic/OneDrive/Desktop/python/vunit/vunit_out/test_output/lib.tb_example_basic.all_58c2666aec61dbf9891244ed2152cee42a949488/modelsim/vsim.wlf -quiet -t ps -onfinish stop lib.tb_example_basic -L vunit_lib -L lib -g/tb_example_basic/runner_cfg="active python runner : true,enabled_test_cases : ,output path : C::/Users/velic/OneDrive/Desktop/python/vunit/vunit_out/test_output/lib.tb_example_basic.all_58c2666aec61dbf9891244ed2152cee42a949488/,tb path : C::/Users/velic/OneDrive/Desktop/python/vunit/,use_color : true" 
+# Start time: 11:00:37 on Aug 18,2023
+# Hello world
+# Break in Function vunit_pkg/test_runner::cleanup at C:/Users/velic/AppData/Local/Programs/Python/Python310/Lib/site-packages/vunit/verilog/vunit_pkg.sv line 138
+# Stopped at C:/Users/velic/AppData/Local/Programs/Python/Python310/Lib/site-packages/vunit/verilog/vunit_pkg.sv line 138
+# End time: 11:00:38 on Aug 18,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

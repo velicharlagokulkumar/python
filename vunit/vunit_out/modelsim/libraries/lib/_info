@@ -1,0 +1,65 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/velic/OneDrive/Desktop/python/vunit
+vtb_example
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z2 DXx9 vunit_lib 9 vunit_pkg 0 22 cz90I[TeiHKKNYnfSn_lm1
+Z3 !s110 1692336623
+!i10b 1
+!s100 jP1D4@TnQRNLR42kEaLV30
+Z4 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IB4E7PJnEhgP<03IAc8e2c1
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+w1692336530
+8C:\Users\velic\OneDrive\Desktop\python\vunit\tb_example.sv
+FC:\Users\velic\OneDrive\Desktop\python\vunit\tb_example.sv
+!i122 1
+L0 12 65
+Z6 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z7 !s108 1692336623.000000
+!s107 C:\Users\velic\AppData\Local\Programs\Python\Python310\Lib\site-packages\vunit\verilog\include/vunit_defines.svh|C:\Users\velic\OneDrive\Desktop\python\vunit\tb_example.sv|
+!s90 -quiet|-modelsimini|C:\Users\velic\OneDrive\Desktop\python\vunit\vunit_out\modelsim\modelsim.ini|-sv|-work|lib|C:\Users\velic\OneDrive\Desktop\python\vunit\tb_example.sv|-L|vunit_lib|-L|lib|+incdir+C:\Users\velic\AppData\Local\Programs\Python\Python310\Lib\site-packages\vunit\verilog\include|
+!i113 1
+Z8 o-quiet -sv -work lib -L vunit_lib -L lib
+Z9 !s92 -quiet -sv -work lib -L vunit_lib -L lib {+incdir+C:\Users\velic\AppData\Local\Programs\Python\Python310\Lib\site-packages\vunit\verilog\include}
+Z10 tCvgOpt 0
+vtb_example_basic
+R1
+R2
+R3
+!i10b 1
+!s100 :HGJ`b0EkIn:EU:4cIF]h2
+R4
+IS9]<?M0@z4U7_`f6M0b7A2
+R5
+S1
+R0
+w1692336494
+8C:\Users\velic\OneDrive\Desktop\python\vunit\tb_example_basic.sv
+FC:\Users\velic\OneDrive\Desktop\python\vunit\tb_example_basic.sv
+!i122 0
+L0 12 7
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:\Users\velic\AppData\Local\Programs\Python\Python310\Lib\site-packages\vunit\verilog\include/vunit_defines.svh|C:\Users\velic\OneDrive\Desktop\python\vunit\tb_example_basic.sv|
+!s90 -quiet|-modelsimini|C:\Users\velic\OneDrive\Desktop\python\vunit\vunit_out\modelsim\modelsim.ini|-sv|-work|lib|C:\Users\velic\OneDrive\Desktop\python\vunit\tb_example_basic.sv|-L|vunit_lib|-L|lib|+incdir+C:\Users\velic\AppData\Local\Programs\Python\Python310\Lib\site-packages\vunit\verilog\include|
+!i113 1
+R8
+R9
+R10

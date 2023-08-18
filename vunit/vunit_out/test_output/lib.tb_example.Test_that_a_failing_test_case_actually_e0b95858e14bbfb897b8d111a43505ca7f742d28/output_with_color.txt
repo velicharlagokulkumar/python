@@ -1,0 +1,30 @@
+# End time: 11:00:35 on Aug 18,2023, Elapsed time: 0:00:03
+# Errors: 0, Warnings: 0
+# vsim -modelsimini C:/Users/velic/OneDrive/Desktop/python/vunit/vunit_out/modelsim/modelsim.ini -wlf C:/Users/velic/OneDrive/Desktop/python/vunit/vunit_out/test_output/lib.tb_example.Test_that_a_failing_test_case_actually_e0b95858e14bbfb897b8d111a43505ca7f742d28/modelsim/vsim.wlf -quiet -t ps -onfinish stop lib.tb_example -L vunit_lib -L lib -g/tb_example/runner_cfg="active python runner : true,enabled_test_cases : Test that a failing test case actually fails,output path : C::/Users/velic/OneDrive/Desktop/python/vunit/vunit_out/test_output/lib.tb_example.Test_that_a_failing_test_case_actually_e0b95858e14bbfb897b8d111a43505ca7f742d28/,tb path : C::/Users/velic/OneDrive/Desktop/python/vunit/,use_color : true" 
+# Start time: 11:00:35 on Aug 18,2023
+# Running test suite setup code
+# Running test case setup code
+# This test case is expected to fail
+# ** Error: CHECK_EQUAL failed! Got 0=0 expected 1. You may also optionally add a diagnostic message to CHECK_EQUAL
+#    Time: 0 ps  Scope: tb_example File: C:/Users/velic/OneDrive/Desktop/python/vunit/tb_example.sv Line: 46
+# Break in Module tb_example at C:/Users/velic/OneDrive/Desktop/python/vunit/tb_example.sv line 46
+# Stopped at C:/Users/velic/OneDrive/Desktop/python/vunit/tb_example.sv line 46
+# 
+# Test Run Failed!
+# 
+# Stack trace result from 'tb' command
+#  C:/Users/velic/OneDrive/Desktop/python/vunit/tb_example.sv 46 return [address 0xff0b2e06] Module tb_example
+# 
+# 
+# Surrounding code from 'see' command
+#   41 :          `CHECK_EQUAL(1, 1);
+#   42 :       end
+#   43 : 
+#   44 :       `TEST_CASE("Test that a failing test case actually fails") begin
+#   45 :          $display("This test case is expected to fail");
+# ->46 :          `CHECK_EQUAL(0, 1, "You may also optionally add a diagnostic message to CHECK_EQUAL");
+#   47 :          // Note: A test case will also be marked as failing if the
+#   48 :          // simulator stops for other reasons before the end of the
+#   49 :          // TEST_SUITE block is reached. This means that you don't
+#   50 :          // need to use CHECK_EQUAL if the testbench you want to
+# 
