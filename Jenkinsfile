@@ -1,6 +1,7 @@
 pipeline {
   agent any
   stages {
+    parallel {
     stage('2') {
       parallel {
         stage('1.1') {
@@ -31,6 +32,7 @@ pipeline {
             echo '2.2'
           }
         }
+      }
 
       }
     }
